@@ -19,6 +19,12 @@
   </a>
 
 ```Bash
+# Run migration
+npx prisma migrate dev
+
+# Data Exploration with Prisma Studio [OPTIONAL]
+npx prisma studio
+
 # Run application
 npm run dev
 ```
